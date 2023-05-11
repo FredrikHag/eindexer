@@ -47,7 +47,7 @@ class Eot < Exception
 end
 
 
-class ParseError < Exception
+class ParsingError < Exception
     attr_accessor :message
     def initialize(currentFilePath)
         @message = "Could not parse #{currentFilePath}"
