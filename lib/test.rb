@@ -19,7 +19,7 @@ t1 = Time.new
 
 
 
-indexer = Indexer.new("./_site")
+indexer = Indexer.new("/srv/jekyll/_site")
 
 
 indexer.parseDir()
